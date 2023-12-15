@@ -3219,6 +3219,8 @@ let db = await dBinary(`${q}`)
 replygcxeon(db)
 }
 break
+case 'hd':
+case 'hdfree':
 case 'remini': {
 			if (!quoted) return replygcxeon(`Where is the picture?`)
 			if (!/image/.test(mime)) return replygcxeon(`Send/Reply Photos With Captions ${prefix + command}`)
